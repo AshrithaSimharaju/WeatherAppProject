@@ -1,0 +1,34 @@
+body{
+  margin-top:0px;
+}
+.outer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  margin-left:480px;
+  text-align:center;
+}
+.InfoBox{
+  height:auto;
+  text-align:center;
+  border:1px solid black;
+  border-radius:5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media(max-width: 850px ) {
+  .outer{
+    margin-left:0px;
+  }
+  .search-box,
+  .InfoBox {
+    max-width: 90%; 
+  }
+
+  h2 {
+    font-size: 1rem; 
+  }
+}
+
+
+
